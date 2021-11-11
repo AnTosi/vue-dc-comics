@@ -48,7 +48,7 @@
               </ul>
             </div>
 
-            <div class="link-sub-area col-25 d-flex flex-wrap flex-column">
+            <div class="link-sub-area col-33 d-flex flex-wrap flex-column">
               <h3>SHOP</h3>
               <ul>
                 <li>Shop DC</li>
@@ -56,7 +56,7 @@
               </ul>
             </div>
 
-            <div class="link-sub-area col-25 d-flex flex-wrap flex-column">
+            <div class="link-sub-area col-33 d-flex flex-wrap flex-column">
               <h3>DC</h3>
               <ul>
                 <li>Terms Of Use</li>
@@ -73,7 +73,7 @@
               </ul>
             </div>
 
-            <div class="link-sub-area col-25 d-flex flex-wrap flex-column-">
+            <div class="link-sub-area col-33 d-flex flex-wrap flex-column-">
               <h3>SITES</h3>
               <ul>
                 <li>DC</li>
@@ -139,7 +139,7 @@ export default {
     padding: 1.5rem 0 1.5rem 0;
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -150,7 +150,10 @@ export default {
     padding-left: 0;
     color: $greyed;
     padding-bottom: 5px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    display: block;
+  } &:hover {
+    cursor: pointer;
   }
 
   .container {
@@ -163,6 +166,7 @@ export default {
   }
   .link-sub-area {
     height: fit-content;
+    padding-right: 1rem;;
   }
 }
 
