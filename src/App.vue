@@ -86,12 +86,16 @@
 
           </div>
           <div class="dc_fat_logo">
-            <img src="./assets/dc-logo-bg.png" alt="">
+            
           </div>
         </div>
       </div>
-      <div class="bottom_page">
-
+      <div class="page_bottom bg_dark py-4 d-flex align-items-center">
+        <div class="container">
+          <div class="col-50 left-bottom">
+            <button>SIGN-UP NOW!</button>
+          </div>
+        </div>
       </div>
     </footer>
   </div>
@@ -136,8 +140,7 @@ export default {
   flex-wrap: wrap;
 
   .container {
-    padding: 1.5rem 0 1.5rem 0;
-  }
+    height: 370px;
   h3 {
     font-size: 1.1rem;
     font-weight: 700;
@@ -152,33 +155,54 @@ export default {
     padding-bottom: 5px;
     font-size: 0.8rem;
     display: block;
-  } &:hover {
+    &:hover {
     cursor: pointer;
+    }
   }
 
-  .container {
-    height: 370px;
-  }
+    
   .links-wrapper {
     text-align: left;
     align-items: flex-start;
     height: 370px;
+    padding: 1.5rem 0 1.5rem 0;
   }
   .link-sub-area {
     height: fit-content;
     padding-right: 1rem;;
   }
 }
+}
 
 .dc_fat_logo {
-  position: relative;
+  // position: relative;
   width: 66%;
-  img {
-  height: 550px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translate(0, -50%);
+  // img {
+  // height: 550px;
+  // position: absolute;
+  // right: 0;
+  // top: 50%;
+  // transform: translate(0, -50%);
+  // }
+  background-image: url('./assets/dc-logo-bg.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 50%;
+}
+
+.page_bottom{
+  height: 110px;
+  button {
+    border-style: none;
+    background-color: $dark;
+    border: 1px solid $main-blue;
+    padding: 0.5rem;
+    color: white;
+    font-weight: 700;
+    
+    &:hover {
+    cursor: pointer;
+    }
   }
 }
 
