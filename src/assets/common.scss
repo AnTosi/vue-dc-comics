@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .d-flex {
@@ -77,6 +78,10 @@ ul {
     font-size: 2rem;
 }
 
+.mx-2 {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
 .py-3 {
     padding-top: 1rem;
     padding-bottom: 1rem;

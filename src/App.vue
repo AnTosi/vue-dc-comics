@@ -90,10 +90,18 @@
           </div>
         </div>
       </div>
-      <div class="page_bottom bg_dark py-4 d-flex align-items-center">
-        <div class="container">
+      <div class="page_bottom bg_dark">
+        <div class="container py-4 d-flex align-items-center">
           <div class="col-50 left-bottom">
             <button>SIGN-UP NOW!</button>
+          </div>
+          <div class="col-50 right-bottom d-flex align-items-center">
+            <span class="mx-2">FOLLOW US</span>
+            <img class="mx-2" src="./assets/footer-facebook.png" alt="">
+            <img class="mx-2" src="./assets/footer-twitter.png" alt="">
+            <img class="mx-2" src="./assets/footer-youtube.png" alt="">
+            <img class="mx-2" src="./assets/footer-pinterest.png" alt="">
+            <img class="mx-2" src="./assets/footer-periscope.png" alt="">
           </div>
         </div>
       </div>
@@ -126,6 +134,7 @@ export default {
 //   margin-top: 60px;
 // }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import './assets/variables.scss';
 @import './assets/common.scss';
 
@@ -203,6 +212,16 @@ export default {
     &:hover {
     cursor: pointer;
     }
+  }
+  img {
+    height: 40px;
+  }
+  .right-bottom {
+    justify-content: right;
+    align-items: center;
+    color: $main-blue;
+    font-weight: 700;
+    font-size: 1rem;
   }
 }
 
