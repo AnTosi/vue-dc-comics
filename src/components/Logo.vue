@@ -1,5 +1,5 @@
 <template>
-    <div class="logo col-40">
+    <div class="logo">
         <img src="../assets/dc-logo.png" alt="">
       </div>
 </template>

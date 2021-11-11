@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <header id="site_header" class="d-flex container align-items-center py-3">
+    <header id="site_header" class="d-flex container align-items-center">
+      <div class="py-3 col-40">
+        <Logo/>
+      </div>
 
-      <Logo/>   
-
-      <div class="nav col-60 d-flex align-items-center">
+      <nav class="nav col-60 d-flex align-items-center">
         <ul class="d-flex">
           <li>CHARACTERS</li>
           <li>COMICS</li>
@@ -17,11 +18,11 @@
           <li>NEWS</li>
           <li>SHOP</li>
         </ul>
-      </div>  
+      </nav>  
     </header>
     <main>
-      <section id="section_one" class="bg_black">
-        <div class="text_white py-4 font-size-2 container bg_black">
+      <section id="section_one" class="bg_black py-5">
+        <div class="text_white font-size-2 container bg_black">
           --> Content goes here &#60;--
         </div>
       </section>
@@ -134,7 +135,7 @@ export default {
 //   margin-top: 60px;
 // }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 @import './assets/variables.scss';
 @import './assets/common.scss';
 
@@ -154,7 +155,7 @@ export default {
     font-size: 1.1rem;
     font-weight: 700;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
   }
 
   li {
@@ -164,10 +165,7 @@ export default {
     padding-bottom: 5px;
     font-size: 0.8rem;
     display: block;
-    &:hover {
-    cursor: pointer;
     }
-  }
 
     
   .links-wrapper {
@@ -178,7 +176,6 @@ export default {
   }
   .link-sub-area {
     height: fit-content;
-    padding-right: 1rem;;
   }
 }
 }
@@ -204,15 +201,13 @@ export default {
   button {
     border-style: none;
     background-color: $dark;
-    border: 1px solid $main-blue;
-    padding: 0.6rem;
+    border: 2px solid $main-blue;
+    padding: 0.7rem;
     color: white;
-    font-size: 0.8rem;
-    
-    &:hover {
-    cursor: pointer;
-    }
+    font-size: 0.9rem;
+    font-weight: 500;
   }
+
   img {
     height: 40px;
   }
@@ -221,8 +216,33 @@ export default {
     align-items: center;
     color: $main-blue;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#section_one {
+  font-weight: 700;
+}
+
+.nav {
+  height: 117px;
+  font-weight: 500;
+  li {
+    height: 117px;
+    line-height: 117px;
+    vertical-align: middle;
+   &:hover{
+  color: $main-blue;
+  border-bottom: 5px solid $main-blue;
+    }
+  }
+}
 </style>
