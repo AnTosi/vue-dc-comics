@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <header id="site_header" class="d-flex container">
-      <div class="logo col-40">
-        <img src="./assets/dc-logo.png" alt="">
-      </div>
+    <header id="site_header" class="d-flex container align-items-center py-3">
+
+      <Logo/>   
 
       <div class="nav col-60 d-flex align-items-center">
         <ul class="d-flex">
@@ -28,32 +27,7 @@
       </section>
 
       <section id="section_two" class="d-flex justify-content-around bg_blue py-5">
-          <div class="container d-flex justify-content-around text_white">
-            <div class="col-20 d-flex align-items-center">
-              <img src=".\assets\buy-comics-digital-comics.png" alt="">
-              <div class="d-flex vertical-middle line-height-50 px-2">DIGITAL COMICS</div>
-            </div>
-
-            <div class="col-20 d-flex align-items-center">
-              <img src=".\assets\buy-comics-merchandise.png" alt="">
-              <div class="d-flex vertical-middle line-height-50 px-2">DC MERCHANDISE</div>
-            </div>
-
-            <div class="col-20 d-flex align-items-center">
-              <img src=".\assets\buy-comics-subscriptions.png" alt="">
-              <div class="d-flex vertical-middle line-height-50 px-2">SUBSCRIPTION</div>
-            </div>
-
-            <div class="col-20 d-flex align-items-center">
-              <img src=".\assets\buy-comics-shop-locator.png" alt="">
-              <div class="d-flex vertical-middle line-height-50 px-2">COMIC SHOP LOCATOR</div>
-            </div>
-
-            <div class="col-20 d-flex align-items-center">
-              <img src=".\assets\buy-dc-power-visa.svg" alt="">
-              <div class="d-flex vertical-middle line-height-50 px-2">DC POWER VISA</div>
-            </div>
-          </div>
+          <BlueBand/>
       </section>
     </main>
 
@@ -70,10 +44,14 @@
 
 <script>
 
+import Logo from './components/Logo.vue';
+import BlueBand from './components/BlueBand.vue';
 
 export default {
   name: 'App',
   components: {
+    Logo,
+    BlueBand
     
   }
 }

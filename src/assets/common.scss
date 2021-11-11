@@ -21,7 +21,7 @@
 }
 
 .align-items-center {
-    align-content: center;
+    align-items: center;
 }
 
 .justify-content-center {
@@ -42,8 +42,6 @@ ul {
 } li {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    line-height: 106px;
-    vertical-align: middle;
 }
 
 .bg_black {
@@ -59,6 +57,11 @@ ul {
 
 .font-size-2 {
     font-size: 2rem;
+}
+
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .py-4 {
@@ -84,11 +87,4 @@ ul {
 .px-3 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-}
-.vertical-middle {
-    vertical-align: middle;
-}
-
-.line-height-50 {
-    line-height: 50px;
 }
