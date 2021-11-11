@@ -34,5 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+    div>div {
+        cursor: pointer;
+    }
 </style>

@@ -196,9 +196,9 @@ export default {
     border-style: none;
     background-color: $dark;
     border: 1px solid $main-blue;
-    padding: 0.5rem;
+    padding: 0.6rem;
     color: white;
-    font-weight: 700;
+    font-size: 0.8rem;
     
     &:hover {
     cursor: pointer;
