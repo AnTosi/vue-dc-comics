@@ -33,7 +33,7 @@
 
     <footer id="site_footer">
       <div class="links">
-
+        
       </div>
       <div class="bottom_page">
 
@@ -68,6 +68,11 @@ export default {
 // }
 #section_two img {
   height: 50px;
+}
+
+.links {
+  background-image: url('./assets/footer-bg.jpg');
+  height: 200px
 }
 @import './assets/variables.scss';
 @import './assets/common.scss';
