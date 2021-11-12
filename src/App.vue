@@ -29,7 +29,7 @@
 
       <section id="section_two" class="bg_darker">
         <div class="container d-flex flex-wrap justify-content-around py-3 text_white text-align-left">
-          componente
+          <ComicsThumbnails/>
         </div>
       </section>
       <section id="section_three" class="d-flex justify-content-around bg_blue py-5">
@@ -119,12 +119,14 @@
 
 import Logo from './components/Logo.vue';
 import BlueBand from './components/BlueBand.vue';
+import ComicsThumbnails from './components/ComicsThumbnails.vue'
 
 export default {
   name: 'App',
   components: {
     Logo,
-    BlueBand
+    BlueBand,
+    ComicsThumbnails
     
   }
 }
