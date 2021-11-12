@@ -1,6 +1,6 @@
 <template>
     <div class ="container">
-        <div>
+        <div class="blue_title px-3 py-2 text_white bg_blue">
             <h2>CURRENT SERIES</h2>
         </div>
         <div class="comics_thumb d-flex flex-wrap justify-content-around">
@@ -103,5 +103,10 @@
 <style scoped lang="scss">
     img {
       height: 185px;  
+    }
+
+    .blue_title {
+        position: absolute;
+        transform: translate(0, -50%);
     }
 </style>
