@@ -1,5 +1,5 @@
 <template>
-    <div class="container d-flex justify-content-around text_white">
+    <div class="blueband_container container d-flex justify-content-around text_white">
         <div class="col-20 d-flex align-items-center">
             <img src="..\assets\buy-comics-digital-comics.png" alt="">
             <div class="d-flex px-2">DIGITAL COMICS</div>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-    div>div {
+    div.blueband_container>div {
         cursor: pointer;
     }
 </style>

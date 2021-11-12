@@ -1,5 +1,5 @@
 <template>
-    <div class="card col-16 mb-4">
+    <div class="card col-16 mb-4 d-flex flex-column align-items-center">
         <img :src="thumb" alt="">
         <h3>{{series.toUpperCase()}}</h3>
     </div>
@@ -17,9 +17,9 @@ export default {
 <style lang="scss">
     .card {
         h3 {
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             font-weight: 400;
-            margin-top: 0.3rem;
+            margin-top: 0.75rem;
         }
     
         img {

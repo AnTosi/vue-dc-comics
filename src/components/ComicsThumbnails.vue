@@ -1,9 +1,9 @@
 <template>
-    <div class ="container">
-        <div class="blue_title px-3 py-2 text_white bg_blue">
+    <div class ="container thumb_container py-5">
+        <div class="blue_title px-4 py-1 text_white bg_blue">
             <h2>CURRENT SERIES</h2>
         </div>
-        <div class="comics_thumb d-flex flex-wrap justify-content-around">
+        <div class="comics_thumb d-flex flex-wrap justify-content-around m-auto">
             <ComicThumbnail
             v-for="comic in comics"
             :key="comic.series"
@@ -107,6 +107,17 @@
 
     .blue_title {
         position: absolute;
+        top: 0;
+        left: 0;
         transform: translate(0, -50%);
+    }
+
+    .thumb_container {
+        position: relative;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 700;
     }
 </style>

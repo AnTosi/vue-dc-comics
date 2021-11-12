@@ -28,7 +28,7 @@
       </section>
 
       <section id="section_two" class="bg_darker">
-        <div class="container d-flex flex-wrap justify-content-around py-3 text_white text-align-left">
+        <div class="container d-flex flex-wrap justify-content-around text_white text-align-left">
           <ComicsThumbnails/>
         </div>
       </section>
