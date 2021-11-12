@@ -1,6 +1,8 @@
 <template>
     <div class ="container">
-        <h2>CURRENT SERIES</h2>
+        <div>
+            <h2>CURRENT SERIES</h2>
+        </div>
         <div class="comics_thumb d-flex flex-wrap justify-content-around">
             <ComicThumbnail
             v-for="comic in comics"
