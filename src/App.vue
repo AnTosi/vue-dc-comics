@@ -79,7 +79,7 @@
               </ul>
             </div>
 
-            <div class="link-sub-area col-33 d-flex flex-wrap flex-column-">
+            <div class="link-sub-area col-33 d-flex flex-wrap flex-column">
               <h3>SITES</h3>
               <ul>
                 <li>DC</li>
@@ -142,8 +142,7 @@ export default {
 //   margin-top: 60px;
 // }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;500;600&display=swap');
 @import './assets/variables.scss';
 @import './assets/common.scss';
 
@@ -173,6 +172,7 @@ export default {
     padding-bottom: 5px;
     font-size: 0.8rem;
     display: block;
+    font-family: 'Open Sans', sans-serif;
     }
 
     
@@ -213,7 +213,7 @@ export default {
     padding: 0.7rem;
     color: white;
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   img {
@@ -224,7 +224,7 @@ export default {
     align-items: center;
     color: $main-blue;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -242,11 +242,14 @@ li:hover {
 
 .nav {
   height: 117px;
-  font-weight: 500;
+  font-weight: 700;
+  justify-content: flex-end;
   li {
     height: 117px;
     line-height: 117px;
     vertical-align: middle;
+    font-size: 0.8rem;
+    padding-left: 2rem;
    &:hover{
   color: $main-blue;
   border-bottom: 5px solid $main-blue;

@@ -36,5 +36,9 @@ export default {
 <style lang="scss">
     div.blueband_container>div {
         cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        div {
+            font-family: 'Open Sans', sans-serif;
+        }
     }
 </style>

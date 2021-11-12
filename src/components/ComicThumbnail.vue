@@ -33,6 +33,10 @@ export default {
 
         .title_container {
             width: 185px;
+            font-family: 'Open Sans', sans-serif;
+            h3 {
+                font-family: 'Open Sans', sans-serif;
+            }
             
         }
     }
