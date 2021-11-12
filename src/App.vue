@@ -21,13 +21,18 @@
       </nav>  
     </header>
     <main>
-      <section id="section_one" class="bg_black py-5">
-        <div class="text_white font-size-2 container bg_black">
-          --> Content goes here &#60;--
+      <section id="section_one" class="">
+        <div class="fat_jumbo">
+          <img src="./assets/jumbotron.jpg" alt="">
         </div>
       </section>
 
-      <section id="section_two" class="d-flex justify-content-around bg_blue py-5">
+      <section id="section_two" class="bg_darker">
+        <div class="container d-flex flex-wrap justify-content-around py-3 text_white text-align-left">
+          componente
+        </div>
+      </section>
+      <section id="section_three" class="d-flex justify-content-around bg_blue py-5">
           <BlueBand/>
       </section>
     </main>
@@ -139,7 +144,7 @@ export default {
 @import './assets/variables.scss';
 @import './assets/common.scss';
 
-#section_two img {
+#section_three img {
   height: 50px;
 }
 
@@ -243,6 +248,14 @@ li:hover {
   color: $main-blue;
   border-bottom: 5px solid $main-blue;
     }
+  }
+}
+
+.fat_jumbo {
+  height: 400px;
+   img {
+  width: 100%;
+  height: 100%;
   }
 }
 </style>
