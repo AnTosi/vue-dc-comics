@@ -28,7 +28,7 @@
       </section>
 
       <section id="section_two" class="bg_darker">
-        <div class="container d-flex flex-wrap justify-content-around text_white text-align-left">
+        <div class="container d-flex flex-wrap justify-content-around text_white text-left">
           <ComicsThumbnails/>
         </div>
       </section>
@@ -143,6 +143,7 @@ export default {
 // }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 @import './assets/variables.scss';
 @import './assets/common.scss';
 

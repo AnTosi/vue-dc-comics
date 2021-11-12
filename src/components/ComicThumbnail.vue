@@ -1,7 +1,9 @@
 <template>
     <div class="card col-16 mb-4 d-flex flex-column align-items-center">
         <img :src="thumb" alt="">
-        <h3>{{series.toUpperCase()}}</h3>
+        <div class="title_container">
+            <h3 class="text-left">{{series.toUpperCase()}}</h3>
+        </div>
     </div>
 </template>
 
@@ -27,6 +29,11 @@ export default {
             height: 185px;
             object-fit: cover;
             object-position: top;
+        }
+
+        .title_container {
+            width: 185px;
+            
         }
     }
 </style>

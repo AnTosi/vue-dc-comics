@@ -11,6 +11,11 @@
             :series="comic.series"
             />
         </div>
+        <div class="m-auto text-center">
+            <button class="blue_button bg_blue text_white py-2 m-auto">
+                LOAD MORE
+            </button>
+        </div>
     </div>
 </template>
 
@@ -119,5 +124,12 @@
     h2 {
         font-size: 1rem;
         font-weight: 700;
+    }
+
+    .blue_button {
+        font-weight: 700;
+        font-size: 1rem;
+        border-style: none;
+        width: 180px;
     }
 </style>
